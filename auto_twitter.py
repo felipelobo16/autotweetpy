@@ -53,9 +53,9 @@ def main():
 
     print('Começando a tweetar')
 
-    f = open("tweet", "w")
-    f.write("XXXXXXXXXXXXXXX START XXXXXXXXXXXXXXX\n")
-    f.close()
+    #f = open("tweet", "w")
+    #f.write("XXXXXXXXXXXXXXX START XXXXXXXXXXXXXXX\n")
+    #f.close()
 
     while True:
         tweets = open('tweet', 'r')
